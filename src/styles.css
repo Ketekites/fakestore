@@ -1,0 +1,90 @@
+section::before {
+    content: "" !important; 
+    background: url('https://fondosmil.com/fondo/3874.jpg') !important; 
+    background-size: cover !important; 
+    position: fixed !important; 
+    top: 0px !important; 
+    bottom: 0px !important; 
+    left: 0px !important; 
+    right: 0px !important; 
+    opacity: 0.2 !important; 
+    z-index: -1 !important;
+}
+section {
+    width: 70%;
+    margin: 0 auto;
+}
+html {
+    background-color: rgb(248, 249, 250);
+}
+section {
+    margin-bottom: 80px !important;
+}
+h1 {
+    color: white;
+    font-size: 20px !important;
+}
+.title {
+    min-height: 50px;
+    max-height: 50px;
+    overflow: hidden;
+}
+.description {
+    min-height: 100px;
+    max-height: 100px;
+    overflow: hidden;
+}
+.checked {
+    color: orange;
+}
+.ptext {
+    font-size: 12px;
+    color: lightgrey !important;
+    width: 40%;
+    text-align: center;
+}
+.jcenter {
+    margin-left: 50px;
+    text-align: left;
+}
+.fixed-bottom {
+    position: relative !important;
+}
+.btn-sm {
+    min-width: 80px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #393c3f00;
+}
+::-webkit-scrollbar-thumb {
+    background: #c24747;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+@media (max-width: 1750px) {
+    section {
+        width: 80%;
+    }
+}
+
+@media (max-width: 1550px) {
+    section {
+        width: 85%;
+    }
+}
+
+@media (max-width: 1300px) {
+    section {
+        width: 90%;
+    }
+    .jcenter {
+        justify-content: center;
+        text-align: center;
+        margin-left: 0px;
+    }
+}
